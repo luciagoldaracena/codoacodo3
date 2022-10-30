@@ -1,0 +1,9 @@
+1-¿Qué es Vanilla Js?
+
+Debido a la creciente cantidad de frameworks, que alejan al programador del uso de Javascript en su forma original (en ocasiones volviendo código innecesariamente más pesado), vanilla.js surgió como una framework de broma de Eric Wastl (la librería sólo contiene la documentación oficial deJavascript-), que pretende recordar que todo se programó con Javascript puro.
+
+2-Buscar 3 FrameWorks de Javascript que se usen en la actualidad
+
+- Angular;
+- React;
+- Vue.

@@ -1,0 +1,11 @@
+#footer {
+    background-color: #1d4e6c !important;
+}
+
+#botonenviar {
+    background-color: #96c93e;
+}
+
+#bgmask {
+    filter:brightness(40%);
+}

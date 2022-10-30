@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Trabajo Práctico</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+      
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      
+      </head>
+    <body>
+       
+<!-- Codo a Codo: Trabajo Práctico Integrador. Realizado por Lucía Goldaracena. Septiembre 2022. -->
+
+<header>
+
+<!-- Navegación -->
+    
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+
+        <img src="imagenes_integrador_front/codoacodo.png" alt="Logo" width="100" height="60" class="d-inline-block align-text-top">
+        <div class="navbar-brand text-white">Conf Bs As </div>
+        
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            
+            <ul class="navbar-nav">
+              
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#laconferencia">La conferencia</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-white-50" href="#losoradores">Los oradores</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-white-50" href="#lafechayellugar">El lugar y la fecha</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-white-50" href="#convorador">Conviértete en orador</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-success" href="tickets.html" >Comprar tickets</a>
+              </li>
+
+            </ul>
+
+        </div>
+        </div>
+    </nav>
+
+    <!-- Navegación -->
+
+</header>
+
+<main>
+
+        <div id="carouselExampleCaptions" class="carousel slide">   
+        <div class="carousel-inner">
+        <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <img src="imagenes_integrador_front/ba1.jpg" class="w-100" id="bgmask" alt="...">
+              
+          <!-- Caption -->
+                <div class="container">
+                  <div class="carousel-caption text-end pb-5">
+                      <div class="row">
+                          <div class="col-lg-5 offset-lg-8">
+                              <h3>Conf Bs. As.</h3>
+                              <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                              <p>
+                              <a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> 
+                              <a class="btn btn-success ms-2 mb-3" href="tickets.html">Comprar tickets</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div> 
+                </div>
+
+              </div>    
+              
+        <!-- Slide 2 -->      
+              <div class="carousel-item">
+                <img src="imagenes_integrador_front/ba2.jpg" class="w-100" id="bgmask" alt="...">
+               
+          <!-- Caption -->      
+                <div class="container">
+                  <div class="carousel-caption text-end pb-5">
+                      <div class="row">
+                          <div class="col-lg-5 offset-lg-8">
+                              <h3>Conf Bs. As.</h3>
+                              <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                              <p>
+                              <a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> 
+                              <a class="btn btn-success ms-2 mb-3" href="tickets.html">Comprar tickets</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div> 
+                </div>
+
+              </div>
+
+        <!-- Slide 3 -->      
+              <div class="carousel-item">
+                <img src="imagenes_integrador_front/ba3.jpg" class="w-100" id="bgmask" alt="...">
+          
+          <!-- Caption -->      
+                <div class="container">
+                  <div class="carousel-caption text-end pb-5">
+                      <div class="row">
+                          <div class="col-lg-5 offset-lg-8">
+                              <h3>Conf Bs. As.</h3>
+                              <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                              <p>
+                              <a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> 
+                              <a class="btn btn-success ms-2 mb-3" href="tickets.html">Comprar tickets</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div> 
+                </div>
+              
+              </div>
+        </div>
+
+        <!-- Slide buttons -->    
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+<!-- Introducción Cards -->
+
+    <div class="container">   
+    <div class="row my-5 mx-auto">
+
+            <div class="col-12 text-center mb-4">  
+                <p>CONOCE A LOS</p>
+                <h2><strong>ORADORES</strong></h2>
+            </div>     
+        
+<!-- Cards --> 
+
+    <div class="card col-4 p-0 mx-3" style="width: 400px;" id="losoradores">
+            <img src="imagenes_integrador_front/steve.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-info text-white">React</span>
+              <h5 class="card-title"> <strong> Steve Jobs </strong></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo ipsam quis placeat nihil a dicta perspiciatis repellendus consequatur recusandae possimus doloribus expedita omnis voluptas impedit unde qui minima asperiores?</p>
+            </div>
+    </div>
+
+    <div class="card col-4 p-0 mx-3" style="width: 400px;" id="losoradores">
+        <img src="imagenes_integrador_front/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="badge text-bg-warning">JavaScript</span>
+          <span class="badge text-bg-info text-white" >React</span>
+          <h5 class="card-title"> <strong> Bill Gates </strong></h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo ipsam quis placeat nihil a dicta perspiciatis repellendus consequatur recusandae possimus doloribus expedita omnis voluptas impedit unde qui minima asperiores?</p>
+        </div>
+    </div>
+
+    <div class="card col-4 p-0 mx-3" style="width: 400px;" id="losoradores">
+        <img src="imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="badge text-bg-secondary">Negocios</span>
+          <span class="badge text-bg-danger">Startups</span>
+          <h5 class="card-title"> <strong> Ada Lovelace </strong></h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo ipsam quis placeat nihil a dicta perspiciatis repellendus consequatur recusandae possimus doloribus expedita omnis voluptas impedit unde qui minima asperiores?</p>
+        </div>
+    </div>
+    </div>
+
+<!-- Cards -->        
+    </div>
+
+<!-- Foto con epígrafe lateral -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <img src="imagenes_integrador_front/honolulu.jpg" class="col-6 ps-0 pe-1" alt="">
+
+            <div class="card rounded-0 bg-dark col-6 text-bg-secondary" id="lafechayellugar">
+                <div class="card-body">
+                  <h5 class="card-title"> <strong>Bs As - Octubre</strong></h5>
+                  <p class="card-text">Buenos Aires es la provincia y localidad más grande del Estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600km<sup>2</sup> de superficie).</p>
+                  <button type="button" class="btn btn-outline-light">Conocé más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Introducción Formulario-->
+
+    <div class="container-fluid align-content-center" id="convorador">   
+      <div class="row m-4">
+  
+              <div class="col-12 text-center">  
+                  <p>CONVIÉRTETE EN UN</p>
+                  <h2><strong>ORADOR</strong></h2>
+              </div>   
+      </div>
+      <p class="text-center">Anótate como orador para dar una <label style="border-bottom-style: dotted;" data-bs-toggle="tooltip" data-bs-placement="top" title="Historia motivacional">charla ignite</label>. Cuéntanos de qué quieres hablar!</p>
+
+<!-- Formulario -->
+
+      <form>
+        <div class="row justify-content-center mx-0">
+          <div class="mb-3 col-3 ps-0">
+            <input class="form-control" placeholder="Nombre">         
+          </div>
+          <div class="mb-3 col-3 pe-0">
+            <input class="form-control" placeholder="Apellido">         
+          </div>
+        </div>
+
+        <div class="mb-3 col-6 mx-auto">
+
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+          <div id="emailHelp" class="form-text">Recuerda incluir un título para tu charla.</div>
+        
+          <button type="submit" class="btn btn-success col-12 my-3 center border-0" id="botonenviar">Enviar</button> 
+
+        </div>
+
+      </form>
+
+    </div>   
+
+    <!-- Formulario -->
+
+    </main>
+  
+    <footer>
+
+        <ul class="nav bg-success py-3 justify-content-center" id="footer">
+
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Contactanos</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Prensa</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Conferencias</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Términos y condiciones</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Privacidad</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link active text-white mx-1 text-center" aria-current="page" >Estudiantes</a>
+            </li>
+           
+          </ul>
+
+    </footer>
+
+    <!-- Codo a Codo: Trabajo Práctico Integrador. Realizado por Lucía Goldaracena. Septiembre 2022. -->
+
+    </body> 
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   
+    
+</html>
